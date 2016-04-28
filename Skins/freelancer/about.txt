@@ -1,0 +1,21 @@
+Convert this static template to a DotNetNuke Theme.
+Use what ever tools your most confortable with. This
+will allow us to assess your skill level.
+
+Instructions on completeing this task:
+1. Create a site in IIS and set your app pool permision to site folder
+    1. Use themeing.dnndev.me
+2. Install the most current version of DNN platform
+3. Determine which part of this theme are panes and which parts
+   should be containers.
+    1. Hint, this is required:
+        I. <div id="ContentPane" runat="server"></div>
+4. Be sure to use proper skin objects where needed
+5. Don't be too concerned about getting the animation
+   ( like autoscroll, bonus points if you do though ) to work.
+   This is primarily to test, if you can use dnn skin objects, create
+   panes, and containers.
+5. When completed this static theme should be a working theme in DNN.
+   If done correctly, I should be able to add modules to panes, drag and drop
+   modules to other panes, have dnn control navigation and assign containers
+   to a module.
